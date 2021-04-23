@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
-	background: #f2f2f2; 
+	background: #3010e7; 
 	font-size: 1em;
 	line-height: 1.5em;
 }
@@ -15,7 +15,13 @@ h1 {
 	text-align: center;
 	font-weight: 300;
 }
-
+h4 {
+	font-size: 1.1em;
+	line-height: 0.8em;
+	margin: 3px 10;
+	text-align: center;
+	font-weight: 50;
+}
 p {
 	margin: 0 0 1.5em 0;
 }
@@ -26,19 +32,19 @@ img {
 }
  /*líneas de CSS las usaremos para dar estilo a la cabecera:*/
  #main-header {
-	background: #333;
+	background:#333;
 	color: white;
-	height: 100px;
+	height: 150px;
 }	
 	#main-header a {
-		color: white;
+		color: rgb(14, 1, 1);
 	}
 
 /*
  * Logo
  */
 #logo-header {
-	float: left;
+	float: inline-start;
 	padding: 15px 0 0 20px;
 	text-decoration: none;
 }
@@ -54,7 +60,7 @@ img {
 	
 	#logo-header .site-desc {
 		display: block;
-		font-weight: 300;
+		font-weight: 200;
 		font-size: 0.8em;
 		color: #999;
 	}
@@ -68,14 +74,14 @@ nav {
 }
 	nav ul {
 		margin: 0;
-		padding: 0;
+		padding: 10;
 		list-style: none;
-		padding-right: 20px;
+		padding-right: 350px;
 	}
 	
 		nav ul li {
 			display: inline-block;
-			line-height: 80px;
+			line-height: 20px;
 		}
 			
 			nav ul li a {
@@ -85,12 +91,12 @@ nav {
 			}
 			
 				nav ul li a:hover {
-					background: #0b76a6;
+					background: #212427;   /*esto es para darle resalte al cuadro de cabcera:*/
 				}
 /*Con estos estilos aplicaremos diseño al contenido:*/
 
                 #main-content {
-                    background: white;
+                    background: rgb(255, 255, 255);
                     width: 90%;
                     max-width: 800px;
                     margin: 20px auto;
@@ -109,7 +115,7 @@ nav {
                         margin-top: 40px;
                     }
                         #main-footer p {
-                            margin: 0;
+                            margin: 10;
                         }
                         
                         #main-footer a {
@@ -129,7 +135,7 @@ nav {
                             margin: 0;
                             padding: 0;
                             font-family: Helvetica, Arial, sans-serif;
-                            color: #666;
+                            color: rgb(19, 9, 9);
                             background: #f2f2f2; 
                             font-size: 1em;
                             line-height: 1.5em;

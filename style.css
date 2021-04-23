@@ -44,7 +44,7 @@ img {
  * Logo
  */
 #logo-header {
-	float: inline-start;
+	float: left;
 	padding: 15px 0 0 20px;
 	text-decoration: none;
 }
@@ -54,7 +54,7 @@ img {
 	
 	#logo-header .site-name {
 		display: block;
-		font-weight: 700;
+		font-weight: 400;
 		font-size: 1.2em;
 	}
 	
@@ -111,11 +111,11 @@ nav {
                         background: #333;
                         color: white;
                         text-align: center;
-                        padding: 20px;
-                        margin-top: 40px;
+                        padding: 10px;
+                        margin-top: 20px;
                     }
                         #main-footer p {
-                            margin: 10;
+                            margin: 5;
                         }
                         
                         #main-footer a {
@@ -140,5 +140,5 @@ nav {
                             font-size: 1em;
                             line-height: 1.5em;
                             
-                            padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+                            padding-top: 50px; /* Relleno superior igual a la altura de la cabecera*/
                         }

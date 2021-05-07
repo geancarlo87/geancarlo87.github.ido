@@ -1,0 +1,57 @@
+html{
+    font-size: 16px;
+}
+
+#titulo{
+    color: lawngreen;
+}
+
+strong{
+    color: red;
+    
+}
+span.destacado{
+    color:orange;
+}
+
+#subtitulo{
+    color:blue;
+}
+span.especial{
+    color:blueviolet;
+}
+a {color:red;}
+
+a em{
+    color:blue;
+}
+
+/*********estilos para la tabla*****/
+table, th, tr, td{
+    border: 0.1em solid rgb(190, 189, 185);
+    border-collapse: collapse;
+    padding: 5px;
+    /*margin: 0 auto; para darle efecto a la tabla**/
+}
+caption{
+    color:blue;
+}
+td{
+    color:green;
+}
+td strong{
+    color:red;
+}
+th{
+    color: red;
+}
+th.especial{
+    color:rgb(230, 111, 68);
+}
+th 
+
+/******fin de la tabla*******/
+
+p {
+    color:rgb(103, 124, 7);
+}

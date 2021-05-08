@@ -3,7 +3,11 @@ ul, ul li { margin: 10; padding: 10; list-style: none; }
 h1, h2, h3, p, form { margin: 10; padding: 10; }
 .clear { clear: both; }
 img { border: none; }
- 
+body{
+    font: 0.9em/1.4 arial, helvetica, sam-serif;
+    color: #000;
+}
+
 /*-- Layout ---------------------------------------------------------*/
 #contenedor {
  width: 90%;
@@ -24,6 +28,9 @@ img { border: none; }
 #contenido #secundario { float: right; width: 20%; }
 #pie { clear: both; }
  
+#cabecera{
+    background:white;
+}
 /*-- Cabecera --------------------------------------------------------*/
 #cabecera #logo { float: left; }
 #cabecera #buscador { float: right; }
@@ -37,3 +44,80 @@ img { border: none; }
 /*-- Pie de pgina ---------------------------------------------------*/
 #pie .enlaces   { float: left; }
 #pie .copyright { float: right; }
+
+
+#contenido #principal .articulo h2{
+    color: #c60;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin-bottom: 0.1em;
+}
+/***********estilos del menu********/
+#menu{
+    background:blue;
+    border-bottom: 1x solid;
+    margin-bottom: 0.5em;
+
+}   
+#menu li{
+    font-size: 1.3em;
+    margin-right: 1em;    
+}
+#menu li a{
+    color:#fff
+}
+/*************fin estilos menu*******/
+/*******laetaral******/
+#lateral{
+    font-size: 0.9em;
+}
+#lateral #noticias span.fecha{
+    display:block;
+    color:#999;
+}
+#laetral #noticas  h3 a{
+    color: #036;
+}
+#lateral #publicidad{
+    color: #555;
+
+}
+#lateral #publicidad a{
+    color:orangered;
+}
+/**********fin seccion lateral******/
+/*******seccion articulo******/
+.articulo a{
+    color:#c60
+}
+.articulo p{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+/*********secundario***********/
+#contenido #secundario{
+    border:1px solid #c60;
+
+}
+#contenido #secundario h2{
+    background: #db905c;
+    font-size: 1em;
+    color:#fff;
+    padding:0.2em;
+}
+#contenido #secundario p{
+    margin: 0.5em 0;
+}
+/*********fin**********/
+/*****pie*****/
+#pie{
+    border-color: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+    background: #f8f8f8;
+    font-size: 0.75em;
+    padding: 0.5em 0;
+    margin-top: 1em;
+
+
+}
+/****in de pie*****/

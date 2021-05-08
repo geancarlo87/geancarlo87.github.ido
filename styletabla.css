@@ -1,0 +1,31 @@
+table, th, tr, td{
+    font-family: Arial;
+    text-align-last: center;
+    border: 0.1em solid rgb(5, 0, 0);
+    border-collapse: collapse   ;
+    padding: 5px;
+    padding-right: 0px;
+    padd
+    
+}
+thead{
+    background: #3332;
+}
+tbody th{
+    background: #E6F3FF;
+}
+table th.euro{
+    background: #e6f3ff url(imagen/euro-a-dolar.png) no-repeat left center;
+
+} 
+table th.dolar{
+    background: #e6f3ff url(imagen/euro-a-dolar.png) no-repeat left center;
+}    
+table th.yen{
+    background: #e6f3ff url(imagen/euro-a-dolar.png) no-repeat left center;
+}
+
+table tr:hover{
+    background: #FFFFCC !important;	
+    
+}

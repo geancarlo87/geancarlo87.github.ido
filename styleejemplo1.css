@@ -1,6 +1,6 @@
-/*-- Bsico ----------------------------------------------------------*/
-ul, ul li { margin: 10; padding: 10; list-style: none; }
-h1, h2, h3, p, form { margin: 10; padding: 10; }
+/*-- Bsico ---------------------------------------------------------*/
+ul, ul li { margin: 1.5px; padding: 10; list-style: none; }
+h1, h2, h3, p, form { margin: 5; padding: 10; }
 .clear { clear: both; }
 img { border: none; }
 body{
@@ -17,7 +17,7 @@ body{
 }
  
 #cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
- border: 2px solid #777;
+ border: 1px solid #777;
 }
  
 #cabecera { clear: both; }
@@ -54,14 +54,14 @@ body{
 }
 /***********estilos del menu********/
 #menu{
-    background:blue;
-    border-bottom: 1x solid;
-    margin-bottom: 0.5em;
+    background:#cc6600;
+    border-bottom: 0.2em;
+    margin-bottom: 0.3em;
 
 }   
 #menu li{
     font-size: 1.3em;
-    margin-right: 1em;    
+    margin-right: 0.2em;    
 }
 #menu li a{
     color:#fff
@@ -121,3 +121,25 @@ body{
 
 }
 /****in de pie*****/
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+    border-style: none;
+    padding: 0.2em;
+}
+#menu{
+    border-bottom: 1px solid #004c99;
+
+}
+#lateral #noticias{
+    border: 1px solid #c5c5c5;
+    padding: 0.3em;
+    margin-top: 1em;
+}
+#lateral #publicidad{
+    border: 1px solid #cc6600;
+    padding: 0.3em;
+    margin-top: 1em;
+}
+#contenido #secundario{
+    border: 1px solid #cc6600;
+    padding: 0.2em;
+    margin-top: 1em;

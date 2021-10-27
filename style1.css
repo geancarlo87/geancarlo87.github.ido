@@ -1,73 +1,78 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0em;
+    padding: 0em;
 }
 body{
     background: #444;
-    color: rgb(255, 255, 255);
+    color: azure;
 }
 #contenedor{
-    width: 960px;
+    width: 70em;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    border-radius: 2.5em;
     overflow: hidden;
-
 }
 header{
     height: 150px;
-    background: #000;
+    background: black;
+
 }
 header h1{
     font-size: 50px;
-    text-align: center;
+    text-align-last: center;
     line-height: 150px;
-
 }
 nav{
     background: orange;
     height: 60px;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
 }
 nav h2{
     font-size: 40px;
     text-align: center;
-    line-height: 60px;
+    line-height:60px;
+}
+nav p{
+    font-size: 2.5em;
+    text-align:justify;
+    line-height: 2.5em; 
 }
 #contenido{
-    width: 700px;
-    height: 500px;
+    width: 52em;
+    height: 32em;
     float: left;
     background: blue;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 #contenido h2{
     font-size: 40px;
     text-align: center;
-    line-height: 500px;
+    line-height:500px;
 }
 aside{
-    width: 250px;
-    height: 500px;
+    width: 16em;
+    height: 32em;
     background: green;
-    margin-top:10px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     float: right;
-
 }
 aside h2{
     font-size: 40px;
     text-align: center;
-    line-height: 200px;
+    line-height:500px;
 }
 footer{
-    background: #000;
+    background: black;
     clear: both;
 }
 footer h2{
     font-size: 40px;
-    text-align-last: center;
+    text-align: center;
     padding: 20px;
     font-style: italic;
 }

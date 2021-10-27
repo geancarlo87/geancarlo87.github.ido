@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding:0;
+    background: blue;
+
+}
+#main-header{
+    margin: 0.2em;
+    padding: 0.2em;
+    background: chartreuse;
+    text-justify: auto;
+    
+}
+#logo-header{
+    float: right;
+    width: 0.2em;
+    margin:auto;
+    padding: 0.1em;
+}
+    
+
+html{
+    font-size: 75px;
+}

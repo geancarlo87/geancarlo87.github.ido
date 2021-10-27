@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/******estilos globale*********/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0mm;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}   
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imagen/imagenes/backgroundheader.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: center;
+}
+div.logo img{
+    width: 10em;
+}
+.franja{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.icon_menu{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    font-size: 1.5em;
+}
+.menu{
+    width: 100%;
+    margin-top: 50px;
+    z-index: 1000;
+    transition: height 0.2s linear;
+    height: 0px;
+    overflow: hidden;
+}
+.mostrar{
+    height: 300px;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background: #fba919;
+
+}
+.link:hover{
+    background: #d30203;
+}
+.seleccionado{
+    background: #d30203;
+}
+h1.titulo{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.boton_cabecera{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #d30203;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.boton_cabecera:hover{
+    background: #d30203;
+}
+/***************estilos seccion principal*****/
+.principal{
+    width: 100%;
+}
+h2.titulo_principal{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin-top: 20xp;
+    margin-bottom: 20xp;
+}
+.titulo_principal::after{
+    content:"";
+    width: 200px;
+    height: 4px;
+    background-color: #d30203;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20xp;
+}
+.promo{
+    width: 100%;
+    margin: 50xp;
+
+}
+.promo span [class*="fa-"]{
+    text-align: center;
+    display: block;
+    color: #d30203;
+    font-size: 85xp;
+}
+h3.titulo_promo{
+    width: 100%;
+    text-align: center;
+    margin-top: 20xp;
+    margin-bottom: 20xp;
+}
+.texto_promo{
+    line-height: 30xp;
+    font-size: 20xp;
+}
+/******estilos seccion telfonos ****/
+.telefono {
+    width: 100%;
+
+}
+.imagen_telefono{
+    width: 100%;
+}
+.titulo_telefono{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin-top: 20xp;
+    margin-bottom: 20xp;
+}
+.titulo_telefono:after{
+    content:"";
+    width: 200px;
+    height: 4px;
+    background-color: #d30203;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20xp;
+}
+div.imagen_telefono img{
+    width: 100%;
+    margin-bottom: 20xp;
+
+}
+.titulo_numero{
+    width: 80xp;
+    height: 80xp;
+    border: 2xp solid  #d30203 ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.texto_descripcion {
+    line-height: 25xp;
+    margin-top: 20xp;
+    margin-bottom: 20xp;
+}
+/********nuestras tiendas*****/
+.tiendas{
+    width: 100%;
+
+}
+.titulo_tiendas{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin-top: 20xp;
+    margin-bottom: 20xp;
+}
+.titulo_tiendas:after{
+    content:"";
+    width: 200px;
+    height: 4px;
+    background-color: #d30203;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20xp;
+}
+.nuestras_tiendas{
+    width: 100%;
+
+}
+.titulo_tienda{
+    width: 100%;
+    text-align: center;
+    margin-top: 10xp;
+    margin-bottom: 10xp;
+    font-size: 10xp;
+}
+.nuestras_tiendas img.img_tienda{
+    width: 100%;
+}
+.lista_tienda{
+    list-style: none;
+    line-height: 30xp;
+}
+.nuestras_tiendas [class*="fa-"]{
+    margin: 10xp;
+    color: #d30203;
+
+}
+/**********opinion cliente********/
+.clientes{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(0,0,0,0.7)), url(imagen/imagenes/clientes.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#fff
+}
+.titulo_cliente {
+    width: 100%;
+    text-align: center;
+    margin-top: 20xp;
+    margin-bottom: 20xp;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #fff;
+
+}
+.titulo_cliente::after{
+    display: block;
+    content: "";
+    width: 200px;
+    height: 4xp;
+    background: #fff;
+    margin: c0 auto;
+    margin-top: 20xp;
+}
+.testimonios{
+    width: 100%;
+    margin-bottom: 20xp;
+    margin-top: 20xp;
+
+}
+.texto_testimonios{
+    margin: 10px;
+    font-size: 20px;
+    line-height: 20xp;
+
+}
+.imagen_perfil{
+    width: 100xp;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 20xp;
+    margin-bottom: 20xp;
+
+}
+.nombre_perfil{
+    margin-top: 50xp;
+    margin-left: 150xp;
+
+}
+/*******estilos footer*******/
+/*******estilos responsive*******/
+@media screen and (min width: 768xp) {
+    h1.titulo{
+        font-size: 50px;
+
+    }
+    .promo{
+        width: 45%;
+        margin: 10xp;
+
+    }
+    .descripcion{
+        width: 45%;
+        margin: 10xp;
+    }
+    .telefono{
+        align-items: flex-start;
+    }
+    .nuestras_tiendas{
+        width: 45%;
+        margin: 10xp;
+    }
+    .testimonios{
+        width: 45%;
+        margin: 10xp;
+    }
+}
+@media screen and (min width: 1024xp) {
+    .logo img{
+        display: block;
+        margin-top: 20xp;
+        
+    }
+    h1.titulo{
+        font-size: 80xp;
+    }
+    .icon_menu{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        width: auto;
+        height: auto;
+        margin-top: -150xp;
+        margin-left: 50%;
+    }
+    .menu li{
+        list-style: none;
+    }
+    link{
+        margin-left: 15px;
+    }
+    .nuestras_tiendas{
+        width: 23%;
+    }
+    .testimonio{
+        width: 23%;
+    }
+    .clientes{
+        align-content: flex-start;
+    }
+}

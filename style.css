@@ -34,10 +34,17 @@ img {
  #main-header {
 	background:#333;
 	color: white;
-	height: 150px;
+	height: 100px;
+	font-display: auto;
 }	
 	#main-header a {
-		color: rgb(14, 1, 1);
+		color: rgb(0, 241, 201);
+	}
+	#main-header nav{
+		background: blue;
+		border-radius: 0.5em;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 /*
@@ -124,7 +131,7 @@ nav {
                         #main-header {
                             background: #333;
                             color: white;
-                            height: 80px;
+                            height: 60px;
                             
                             width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
                             left: 0; /* Posicionamos la cabecera al lado izquierdo */

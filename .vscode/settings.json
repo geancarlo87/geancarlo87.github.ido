@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c3956f19-ff83-417b-ab68-9c20eb1b48f8/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/WEBRECOMENDACION1",
+    "appService.deploySubpath": "."
+}
